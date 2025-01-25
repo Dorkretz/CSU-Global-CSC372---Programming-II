@@ -28,7 +28,7 @@ public class BankBalanceApp extends JFrame {
     }
 
     private void createComponents() {
-        // Initial Balance
+        // Initialize Balance
         mainPanel.add(new JLabel("Initial Balance: $"));
         balanceField = new JTextField(10);
         mainPanel.add(balanceField);
